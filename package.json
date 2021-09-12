@@ -1,0 +1,23 @@
+{
+  "name": "guardo",
+  "version": "1.0.0",
+  "description": "An advanced moderation package for Discord.js Clients, packed with functions ready to be used!",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "mongodb": "^4.1.1",
+    "ms": "^2.1.3",
+    "quickmongo": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/ms": "^0.7.31",
+    "discord.js-guard": "^1.0.5",
+    "typescript": "^4.4.2"
+  }
+}
